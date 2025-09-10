@@ -15,25 +15,6 @@ body {
   width: 100%;
   background-color: #ffffff;
 }
-.logo {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo-text {
-  font-size: 1.875rem;
-  font-weight: 700;
-  color: #e9811f;
-  line-height: 1.2;
-}
-
-.logo-subtitle {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #494949;
-  letter-spacing: 0.1em;
-  margin-top: 0.125rem;
-}
 
 /* Nav bar */
 nav {
@@ -51,11 +32,24 @@ nav {
   top: 0;
   z-index: 1000;
 }
+nav .logo {
+  display: flex;
+  flex-direction: column;
+}
 
-nav #logo {
-  width: 128px;
-  height: 50px;
-  object-fit: contain;
+nav .logo-text {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #e9811f;
+  line-height: 1.2;
+}
+
+nav .logo-subtitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #494949;
+  letter-spacing: 0.1em;
+  margin-top: 0.1rem;
 }
 
 nav #btn {
@@ -1464,7 +1458,7 @@ nav #btn-2 {
   min-height: 149px;
 }
 
-.logo {
+footer .logo {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1472,14 +1466,14 @@ nav #btn-2 {
   flex-shrink: 0;
 }
 
-.logo-text {
+footer .logo-text {
   color: #ea7d28;
   font-size: 38px;
   font-weight: 700;
   line-height: 1.2;
 }
 
-.logo-subtitle {
+footer .logo-subtitle {
   color: white !important;
   font-size: 18px;
   font-weight: 600;
